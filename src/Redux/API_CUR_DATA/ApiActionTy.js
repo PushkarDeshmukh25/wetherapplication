@@ -1,4 +1,4 @@
-export const FETCH_CUR_API_DATA='FETCH_DATA';
+export const FETCH_DATA='FETCH_DATA';
 
 export const FETCH_CUR_API_REQUEST='FETCH_CUR_API_REQUEST';
 

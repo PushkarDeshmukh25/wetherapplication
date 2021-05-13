@@ -132,8 +132,17 @@ margin-top: 20px;
   
 }
 .child{
-  margin-top: 4%;
+  margin-top: -14%;
+  font-size:30px ;
   text-align: center;
+  color: hsl(318, 88%, 52%);
+}
+.child3{
+  background-image: url('./images/img6.gif');
+  padding:20%;
+   
+  background-size: cover;
+  background-position: centebr;
 }
 .img{
   height: 10px;

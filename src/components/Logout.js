@@ -12,12 +12,12 @@ export default class Logout extends Component {
            
 < div className="child3">
               <div className="child">
-                  <alert >Logged out Successfully</alert> 
+                  <alert>𝓛𝓸𝓰𝓰𝓮𝓭 𝓸𝓾𝓽 𝓢𝓾𝓬𝓬𝓮𝓼𝓼𝓯𝓾𝓵𝓵𝔂</alert> 
 
                   <br/>
                   <br/>
                   <br/>
-                  <Link to="/" class="btn btn-secondary " >Login Again</Link>
+                  <Link to="/" class="btn btn-danger" >Login Again</Link>
               </div>
           
                 {/* <h1 className="child">you logged out</h1> */}

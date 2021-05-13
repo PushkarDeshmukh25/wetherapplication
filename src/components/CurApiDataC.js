@@ -70,23 +70,23 @@ function CurApiDataC() {
 //     <CircularProgress color="inherit" />
 //   </Backdrop> : error ? error.messsage :s.curApi.data.map(u =><h3>{u.main}</h3>)
 
-    const day5Data = s.Api5Day.data.map((e) => {
+    // const day5Data = s.Api5Day.data.map((e) => {
        
-        return e.weather.map((obj) => {
+    //     return e.weather.map((obj) => {
 
-            return (
-                <ul>
-                    <li>icon: <img src={`http://openweathermap.org/img/wn/${obj.icon}@2x.png`} /></li>
+    //         return (
+    //             <ul>
+    //                 <li>icon: <img src={`http://openweathermap.org/img/wn/${obj.icon}@2x.png`} /></li>
                     
-                    <li>id : {obj.id} </li>
-                    <li>main: <img src={MAIN1}/> {obj.main}</li>
-                    <li>description: <img src= {SCATTERED}/>{obj.description} </li>
+    //                 <li>id : {obj.id} </li>
+    //                 <li>main: <img src={MAIN1}/> {obj.main}</li>
+    //                 <li>description: <img src= {SCATTERED}/>{obj.description} </li>
                     
                     
-                </ul>
-            )
-        })
-    })
+    //             </ul>
+    //         )
+    //     })
+    // })
 
 
     const day5Data2 = s.Api5Day.data.map((e) => {
@@ -156,9 +156,7 @@ function CurApiDataC() {
      {s.curApi.loading?
 <Spinner animation="border" role="status"className="spin">
   <span className="sr-only">Loading...</span>
-</Spinner>
-
-:s.curApi.error?s.curApi.error:
+</Spinner> :s.curApi.error?s.curApi.error:
 
             <div className="container">
                 <div className="row">
@@ -172,7 +170,7 @@ function CurApiDataC() {
                     <div className="col-md-4 card-body shadow  DisplayCol">
 
                         
-                            {day5Data}
+                           {/* // {day5Data} */}
                             {day5Data2} 
                         
                         
